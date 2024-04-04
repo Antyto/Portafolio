@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Portafolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Comfortaa:wght@300..700&family=Indie+Flower&family=Lobster&family=PT+Mono&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/c28230237d.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="assets/sass/main.css">
+</head>
+
+<body>
+    <nav class="navbar p-0 m-0 navbar-expand-lg --bgcolor0">
+        <div class="container-fluid col-12">
+            <a class="navbar__brand" href="#"><img class="navbar__brand" src="assets/img/logo1.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav --primary me-auto mb-2 mb-lg-0 --funct-element">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#habilities">Mis Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#proyects">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+    <header class="container-fluid --bgcolor1">
+        <div class="row">
+            <div class="personal__container d-flex justify-content-center col-12 col-md-6 p-3">
+                <img class="personal__img" src="assets/img/logo2.png" alt="Logo Personal">
+            </div>
+            <div class="personal-container col-md-6 text-left text-md-start align-self-center">
+                <h1 class="personal__title m-3 col-md-12 --title">Soy Antonieta Novoa</h1>
+                <h2 class="personal__subtitle m-3 col-md-12 --title">Desarrolladora FrontEnd</h2>
+                <p class="personal__info m-3 text-wrap">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Obcaecati
+                    cupiditate numquam veniam ex! Ab similique sed delectus, est modi asperiores eaque labore, nobis
+                    quas quam minima, unde optio earum nihil.</p>
+                <div class="personal__button --primary d-flex m-3">
+                    <button type="button"
+                        class="btn btn-color border-dark --primary text-left col col-md-4 --funct-element"
+                        data-bs-toggle="tooltip" data-bs-placement="right">
+                        Contáctame
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="container-fluid --bgcolor2 pb-4">
+            <h3 class="habilities__title d-flex justify-content-center p-2 --title pb-5" id="habilities">Mis Habilidades</h3>
+            <div class="row">
+                <div class="container-fluid col-6 d-md-flex justify-content-end">
+                    <li class="list-group-item p-2 mb-2"><i
+                            class="fa-brands fa-html5 --html --icon mb-4 fa-2xl d-flex align-self-center"><span
+                                class="--lang-adj">HTML</span></i></li>
+                    <li class="list-group-item p-2 mb-2"><i
+                            class="fa-brands fa-css3-alt --css --icon mb-4 fa-2xl d-flex align-self-center"><span
+                                class="--lang-adj">CSS</span></i></li>
+                    <li class="list-group-item p-2 mb-2"><i
+                            class="fa-brands fa-sass --sass --icon mb-4 fa-2xl d-flex align-self-center"><span
+                                class="--lang-adj">Sass</span></i></li>
+                    <li class="list-group-item p-2 mb-2"><i
+                            class="fa-brands fa-bootstrap --bs --icon mb-4 fa-2xl d-flex align-self-center"><span
+                                class="--lang-adj">Bootstrap</span></i></li>
+                </div>
+                <div class="col-6 d-md-flex justify-content-center">
+                    <li class="list-group-item p-2 mb-2"><i
+                            class="fa-brands fa-git-alt --git --icon mb-4 fa-2xl d-flex align-self-center"><span
+                                class="--lang-adj">Git</span></i></li>
+                    <li class="list-group-item p-2 mb-2"><i
+                            class="fa-brands fa-github --github --icon mb-4 fa-2xl d-flex align-self-center"><span
+                                class="--lang-adj">GitHub</span></i></li>
+                    <li class="list-group-item p-2 mb-2"><i
+                            class="fa-brands fa-js --js --icon  fa-2xl mb-4 d-flex align-self-center"><span
+                                class="--lang-adj">Javascript</span></i></li>
+                    <li class="list-group-item p-2 mb-2"><i
+                            class="fa-brands fa-vuejs --vue --icon mb-4 fa-2xl d-flex align-self-center"><span
+                                class="--lang-adj">Vue</span></i></li>
+                </div>
+            </div>
+        </section>
+        <section class="container-fluid --bgcolor1 justify-content-center pb-5">
+            <div class="row">
+                <h3 class="proyect__title d-flex justify-content-center --title pt-4" id="proyects">Mis Proyectos</h3>
+                <div class="row row-cols-2 row-cols-md-4 g-4 mx-1">
+                    <div class="col">
+                        <div class="card">
+                            <img src="assets/img/proyecto1.png" class="card__img" alt="...">
+                            <div class="card-body --card-adj">
+                                <h5 class="card__title">Blog Front End</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="assets/img/proyecto2.png" class="card__img" alt="...">
+                            <div class="card-body --card-adj">
+                                <h5 class="card__title">Ricomida</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card --card-adj">
+                            <img src="assets/img/proyecto3.png" class="card__img" alt="...">
+                            <div class="card-body --card-adj">
+                                <h5 class="card__title">Café Agere</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card --card-adj">
+                            <img src="assets/img/proyecto4.png" class="card__img" alt="...">
+                            <div class="card-body --card-adj">
+                                <h5 class="card__title">Cuppon</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section class="container-fluid --bgcolor2 pb-5">
+            <h3 class="contact__title d-flex justify-content-center p-2 --title p-5" id="contact">Contactame</h3>
+            <div class="row justify-content-evenly mx-1">
+                <div class="col col-md-6">
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                            <label for="inputFistName4" class="contact__data"></label>
+                            <input type="Fist Name" class="form-control" id="inputFistName4" placeholder="Nombre">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputLastName4" class="contact__data"></label>
+                            <input type="Last Name" class="form-control" id="inputLastName4" placeholder="Apellido">
+                        </div>
+                        <div class="col-12">
+                            <label for="inputEmail4" class="contact__data"></label>
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="Tu Email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label"></label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                placeholder="Escribe tu mensaje"></textarea>
+                        </div>
+                        <div class="col-12">
+                            <button type="button"
+                                class="btn btn-color border-dark --primary text-left col col-md-4 --funct-element"
+                                data-bs-toggle="tooltip" data-bs-placement="right">
+                                Enviar
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="row col-md-6 contact__media pt-5">
+                    <i class="fa-solid fa-phone --contact-adj fa-xl"><span
+                        class="px-2">+56933577283</span></i>
+                    <i class="fa-solid fa-envelope fa-xl"><a href="https://www.gmail.com/mail/help/intl/es/about.html?iframe/" class="text-decoration-none contact__mail px-2 --contact-adj">Mail</a></i>
+                    <i class="fa-brands fa-linkedin fa-xl"><a href="https://www.linkedin.com/in/antonieta-novoa-rivas" class="text-decoration-none contact__mail px-2 --contact-adj">Linkedin</a></i> 
+                    <i class="fa-brands fa-github fa-xl"><a href="https://github.com/Antyto" class="text-decoration-none contact__mail px-2 --contact-adj">GitHub</a></i>
+                    <i class="fa-brands fa-instagram --contact-adj fa-xl"><a href="https://www.instagram.com" class="text-decoration-none contact__mail px-2 --contact-adj">Instagram</a></i>
+              </div>
+        </section>
+    </main>
+    <footer class="footer p-5 --bgcolor0"> 
+        <p class="footer__brand text-center --footer-title">Todos los derechos reservados</p>
+    </footer>
+</body>
+
+</html>

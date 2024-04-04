@@ -1,0 +1,26 @@
+// Abstracts
+@import 'abstracts/variables';
+
+// Vendors
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Base
+@import 'base/base';
+@import 'base/tipography';
+
+// Components
+@import 'components/personal';
+@import 'components/habilities';
+@import 'components/proyect';
+@import 'components/contact';
+@import 'components/footer';
+@import 'components/navbar';
+
+// Layout
+@import 'layout/header';
+
+// Pages
+
+
+// Themes
+@import 'themes/languages';
